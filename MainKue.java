@@ -90,7 +90,7 @@ public class MainKue {
                         kueTermahal = jenisKue;
                     }
                 }
-                System.out.println("Kue Termahal adalah:\n" + kueTermahal.toString() + "\nTotal Harga\t: "
+                System.out.println("Kue Termahal adalah:\n" + kueTermahal.toString() + "\nTotal Harga\t: Rp"
                         + kueTermahal.hitungharga()
                         + "\nJenis kue\t: " + ((kueTermahal instanceof KuePesanan) ? "Kue Pesanan" : "Kue Jadi"));
             }
