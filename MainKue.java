@@ -42,7 +42,8 @@ public class MainKue {
                 System.out.println("Daftar Kue:");
                 for (Kue jenisKue : kue) {
                     String jenis = (jenisKue instanceof KuePesanan) ? "Kue Pesanan" : "Kue Jadi";
-                    System.out.println(jenisKue.toString() + "\nJenis\t\t: " + jenis + "\n");
+                    System.out.println(jenisKue.toString() + "\nJenis\t\t: " + jenis + "\nTotal Harga\t: Rp"
+                            + jenisKue.hitungharga() + "\n");
                 }
                 System.out.println();
             } else if (pilihan == 2) {
