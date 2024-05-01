@@ -101,5 +101,6 @@ public class MainKue {
             }
         } while (pilihan != 0);
         input.close();
+        System.out.println("Terimakasih");
     }
 }
